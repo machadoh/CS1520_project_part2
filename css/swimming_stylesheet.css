@@ -1,0 +1,78 @@
+body, html {
+
+        margin:0;
+        font-family:'helvetica';
+        color:white;
+        background-size:100%;
+        background-image:url("../img/saopaulo.jpg");
+
+}
+#pageWrap{
+        display:none;
+        padding-top:70px;
+}
+
+.content-container {
+ padding: 30px 15% 10px 15%;
+}
+
+.content {
+  /* Put this on top of the blurred layer */
+     	position: relative;
+  	z-index: 100;
+   	padding: 20px;
+        height:100%;
+        width:100%;
+        border:2px solid black;
+        border-radius:20px;
+        background: rgb(250,160,152,0.75); /* for IE */
+  	background: rgba(250,160,152,0.88);
+        display: inline-block;
+        color:gold;
+        font-size:2rem;
+}
+#pinheiros>img{
+        float: left;
+        border: 4px solid black;
+        height:150px;
+        border-radius:20px;
+}
+#pinheirosinfo>p{
+	word-wrap: break-word;
+}
+#pinheirosinfo{
+        font-size:1em;
+        color:white;
+        font-weight:bold;
+        word-wrap: break-word;
+}
+#unlv>img{
+	float: left;
+        border: 4px solid black;
+        height:150px;
+        border-radius:20px;
+}
+#unlvinfo>p{
+	word-wrap: break-word;
+}
+#unlvinfo{
+        font-size:1em;
+        color:white;
+        font-weight:bold;
+        word-wrap: break-word;
+}
+#pitt>img{
+        float: left;
+        border: 4px solid black;
+        height:150px;
+        border-radius:20px;
+}
+#pittinfo>p{
+	word-wrap: break-word;
+}
+#pittinfo{
+        font-size:1em;
+        color:white;
+        font-weight:bold;
+        word-wrap: break-word;
+}

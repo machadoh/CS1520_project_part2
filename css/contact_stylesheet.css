@@ -1,0 +1,73 @@
+body, html {
+
+        margin:0;
+        font-family:'helvetica';
+        color:red;
+        background-size:100%;
+        background-image:url("../img/saopaulo.jpg");
+        background-attachment:fixed;
+
+}
+
+form{
+        text-align:center;
+	margin:3cm 0cm 0cm 0cm;
+	color:black;
+  /* Put this on top of the blurred layer */
+        padding: 5px;
+        height:50%;
+        width:70%;
+        border:3px solid black;
+        border-radius:70px;
+        background: rgb(250,160,152,0.75); /* for IE */
+        background: rgba(250,160,152,0.88);
+        display: inline-block;
+        font-size:2rem;
+
+}
+input[type=text], textarea {
+    width: 70%;
+    padding: 3px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#gh{
+        height:40px;
+        //margin-top:40px;
+	margin:-1.5cm 0cm 0cm 0cm;
+	float:right;
+}
+
+#fb{
+        height:40px;
+        //margin-top:40px;
+        margin:-1.5cm 4cm 0cm 0cm;
+	float:right;
+}
+
+#ig{
+        height:40px;
+       // margin-top:40px;
+        margin:-1.5cm 2cm 0cm 0cm;
+	float:right;
+}
+
+#contactinfo{
+        float:right;
+        text-align:right;
+        margin:-14cm 1cm 0cm 0cm;
+        color:red;
+        font-size:2.5rem;
+        font-weight:bold;
+}
+footer{
+	bottom:0;
+}
+footer p{
+        color:blue;
+	text-align:left;
+}

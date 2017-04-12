@@ -1,0 +1,46 @@
+body, html {
+
+        margin:0;
+        font-family:'Arial';
+        color:white;
+        background-size:100%;
+        background-image:url("../img/saopaulo.jpg");
+
+}
+#pageWrap{
+        display:none;
+        padding-top:150px;
+}
+
+.content-container {
+ 	padding: 30px 15% 10px 15%;
+}
+
+.content {
+  /* Put this on top of the blurred layer */
+     	position: relative;
+     	z-index: 100;
+     	padding: 20px;
+        height:100%;
+        width:100%;
+        display: inline-block;
+        color:white;
+}
+
+#personal>img{
+        float: left;
+        border: 3px solid black;
+        height:350px;
+        border-radius:20px;
+}
+#personalinfo>p{
+	margin-left:250px;
+}
+#personalinfo{
+        font-size:3em;
+        color:white;
+        font-weight:bold;
+}
+footer{
+	bottom:0;
+}

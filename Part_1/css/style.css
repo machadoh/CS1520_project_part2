@@ -1,0 +1,131 @@
+body, html {
+  font-size: 80%;
+  margin:0;
+  font-family:'arial black';
+  color:black;
+  font-weight:bold;
+}
+body{
+	background-image:url("../img/cool_bird.jpg");
+	background-size:100%;
+	float:center;    
+
+
+}
+
+#home{
+	margin:2cm 2cm 0 3cm;
+}
+
+nav ul li{
+  display: inline; 
+  font-size:2rem;
+  margin:20px;
+}
+nav ul li > a {
+  font-family:'arial';
+  text-decoration:underline;
+  color:black;
+}
+nav ul li >a:hover{
+ text-decoration:underline;
+ color:blue;
+}
+
+nav{
+	background-color:red;
+	opacity: 0.80;
+	text-align:center;
+}
+
+nav > h1{
+    color:black;
+    font-size: 3rem;
+    font-style:oblique;
+}
+nav > h2{
+    color:black;
+    font-size: 2rem;
+    font-style:italic;
+}
+
+div>img{
+	height: 600px:
+	width: 50%;
+	float: left;
+	margin: 10px;
+	border: 4px solid black;
+}
+
+div>p, li{
+       font-size:1.75rem;
+}
+
+#personalinfo{
+	float:left;
+}
+
+#personal{
+	float:left;
+}
+
+table, th, td {
+    border: 4px solid black;
+}
+
+td{
+	width:20%;
+}
+
+td>img{
+	width:100%;
+	height:auto;
+}
+
+#noticia{
+	width:80%;
+	float:left;
+	border: 0px;
+}
+form label{
+  	font-size:2rem;
+}
+fieldset{
+	border:0px;
+}
+input, label{
+        display:block;
+	margin: 0 0 0 10cm;
+
+}
+textarea{
+	width:40%;
+	border: 2px solid black;
+	margin: 0 0 0 10cm;
+}
+#contactinfo{
+	float:left;
+	text-align:right;
+	margin:0 0 0 20cm;
+}
+
+footer{
+	clear:both;
+}
+footer p{
+	color:black;
+  	font-size:2rem;
+	background-color:red;
+	opacity: 0.80;
+	text-align:center;
+}
+footer ul {
+  	list-style:none;
+  	padding:0;
+}
+footer ul li {
+	font-weight:bold;
+  	font-size:3rem;
+  	display: block; 
+  	margin-left:20px;
+}

@@ -1,0 +1,66 @@
+body, html {
+      font-size: 10px;
+      margin:0;
+      font-family:'Arial';
+
+}
+
+form label{
+  font-size:2rem;
+}
+
+.otherNav {
+	width:100%;
+	display:inline-block;
+	background-color:red;
+	color:black;
+	font-size: 4rem;
+	position:absolute;
+	margin-top:0;
+        z-index:1000;	
+}
+
+.otherNav>h1{
+	color:Black;
+	font-size: 6rem;
+	text-align:left;
+	float:left;
+	margin-left:20px;
+	font-family: 'Brush Script MT';
+}
+nav ul {
+	float:right;
+	margin-bottom: -3px;
+}
+nav ul li{
+       display: inline-block; 
+       font-size:2rem;
+       margin:40px 40px 0px 20px;
+       text
+}
+
+nav ul li > a {
+       font-family:'Arial';
+       text-decoration:none;
+       color:black;
+}
+nav ul li >a:hover{
+ text-decoration:underline;
+ color:blue;
+}
+footer{
+	position:absolute;
+	left:0;
+	right:0;
+  	padding: 0.2cm;
+  	background-color: red;
+}
+footer p{
+	color:black;
+  	font-size:3rem;
+  	background-color:red;
+	text-align:center;
+}
+form label{
+  font-size:2rem;
+}
